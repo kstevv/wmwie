@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.theme-light {
+  --dark-text: black;
+  --accent: #dbe7e4;
+  --button-border: #5e4b56;
+  --dark-background: #fff;
+  --header-background: #007bff;
+  --card-background: white;
+  --footer-background: #242424;
+  --light-text: #5e4b56;
+  --light-background: #eddcd2;
+  --light-description-text: #747386;
+  --box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+}
+
+/* --light-text is fine on on the first 3, --dark-text is fine on all of them, --dark-text and dark-background are fine as text on --accent */
+.theme-dark {
+  --dark-text: white;
+  --dark-background: #000;
+  --header-background: rgb(18, 18, 18);
+  --card-background: #1d1d1f;
+  --footer-background: #000;
+  --light-background: #586f7c;
+  --accent: #b8dbd9;
+  --button-border: #b8dbd9;
+  --light-text: #f9f8f8;
+  --light-description-text: rgb(96, 96, 96);
+  --box-shadow: none;
+}
+
+html,
+#root {
+  background-color: var(--dark-background);
+  color: var(--dark-text);
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+button {
+  font-family: "Roboto Mono", monospace;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-image: url("./assets/img-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  background-image: url("./assets/img-1.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url("./assets/img-8.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}

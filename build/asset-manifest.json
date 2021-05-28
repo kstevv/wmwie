@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/wmwie/static/css/main.a33a6e95.chunk.css",
+    "main.js": "/wmwie/static/js/main.d9388539.chunk.js",
+    "main.js.map": "/wmwie/static/js/main.d9388539.chunk.js.map",
+    "runtime-main.js": "/wmwie/static/js/runtime-main.0b10c5db.js",
+    "runtime-main.js.map": "/wmwie/static/js/runtime-main.0b10c5db.js.map",
+    "static/js/2.ed84f060.chunk.js": "/wmwie/static/js/2.ed84f060.chunk.js",
+    "static/js/2.ed84f060.chunk.js.map": "/wmwie/static/js/2.ed84f060.chunk.js.map",
+    "index.html": "/wmwie/index.html",
+    "precache-manifest.1c3ae19bc561735bfb98d1acbb5d8744.js": "/wmwie/precache-manifest.1c3ae19bc561735bfb98d1acbb5d8744.js",
+    "service-worker.js": "/wmwie/service-worker.js",
+    "static/css/main.a33a6e95.chunk.css.map": "/wmwie/static/css/main.a33a6e95.chunk.css.map",
+    "static/js/2.ed84f060.chunk.js.LICENSE.txt": "/wmwie/static/js/2.ed84f060.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/wmwie/static/media/img-8.d211c298.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b10c5db.js",
+    "static/js/2.ed84f060.chunk.js",
+    "static/css/main.a33a6e95.chunk.css",
+    "static/js/main.d9388539.chunk.js"
+  ]
+}
